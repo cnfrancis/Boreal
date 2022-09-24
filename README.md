@@ -1,7 +1,4 @@
-# K_LOGS-soen341project2022
-
-This is our SOEN 341 project (Winter 2022, ConU, Group K)
-
+# Boreal
 ## Objective
 
 The goal of this project is to provide users with an online shopping application that allows them to conveniently shop for their favourite items from an extensive number of options available on the web.
@@ -21,18 +18,6 @@ Boreal is a web-based store that offers a large selection of the most influentia
 - After an order has been processed, the administrator has the ability to alter or cancel it.
 - Secure checkout process.
 
-## Team Members
-
-| Student Name                | Student ID | Username     | Role                              |
-| --------------------------- | ---------- | ------------ | --------------------------------- |
-| Nolan Bastien               | 40179166   | nolanbastien | Scrum Master                      |
-| Agnès Croteau               | 26720927   | AgnesCroteau | Researcher & Programmer           |
-| Joe El-Khoury               | 40173108   | Aboudik1452  | Programmer                        |
-| Huy-Long Tran               | 40076313   | ThaCovenant  | Programmer                        |
-| Francis Castagna Narcisse   | 40097641   | cnfrancis    | Backend Programmer & Web designer |
-| Kelly Acoca                 | 27531389   | KellyA       | Programmer & Technical Writer     |
-| Emilie Rosenthal-Bustamante | 40134421   | emrb9        | Programmer                        |
-
 ## Technologies
 
 - Git
@@ -43,16 +28,16 @@ Boreal is a web-based store that offers a large selection of the most influentia
 
 ## Setup
 
-- from the root folder ./SOEN-341-PROJECT-GROUP-K, do:
+- from the root folder ./Boreal, do:
   - `npm i`
-- from the root folder ./SOEN-341-PROJECT-GROUP-K, do:
+- from the root folder ./Boreal, do:
   - `cd backend`
   - `npm i`
-- from the root folder ./SOEN-341-PROJECT-GROUP-K, do:
+- from the root folder ./Boreal, do:
   - `cd frontend`
   - `npm i`
 
 # Running
 
-- from the root folder ./SOEN-341-PROJECT-GROUP-K, do:
+- from the root folder ./Boreal, do:
   - `npm run dev`
