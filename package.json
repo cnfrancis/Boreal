@@ -1,0 +1,24 @@
+{
+  "name": "SOEN-341-PROJECT-GROUP-K",
+  "version": "1.0.0",
+  "description": "This is our SOEN 341 project (Winter 2022, ConU, Group K)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K/issues"
+  },
+  "homepage": "https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

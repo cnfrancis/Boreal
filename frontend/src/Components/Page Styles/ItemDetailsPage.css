@@ -1,0 +1,17 @@
+.description {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.item-image {
+    max-width: fit-content;
+    height:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
