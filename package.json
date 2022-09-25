@@ -1,24 +1,23 @@
 {
-  "name": "SOEN-341-PROJECT-GROUP-K",
+  "name": "boreal",
   "version": "1.0.0",
-  "description": "This is our SOEN 341 project (Winter 2022, ConU, Group K)",
+  "description": "The goal of this project is to provide users with an online shopping application that allows them to conveniently shop for their favourite items from an extensive number of options available on the web.",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" ",
+    "dev": "concurrently \"cd ./backend && npm run dev\" \"cd ./frontend && npm start\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K.git"
+    "url": "git+https://github.com/cnfrancis/Boreal.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K/issues"
+    "url": "https://github.com/cnfrancis/Boreal/issues"
   },
-  "homepage": "https://github.com/AgnesCroteau/SOEN-341-PROJECT-GROUP-K#readme",
+  "homepage": "https://github.com/cnfrancis/Boreal#readme",
   "dependencies": {
-    "concurrently": "^7.0.0"
+    "concurrently": "^7.4.0"
   }
 }
