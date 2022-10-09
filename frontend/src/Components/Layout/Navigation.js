@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Nav, Navbar, Button } from "react-bootstrap";
+import { Nav, Navbar, Button, Container } from "react-bootstrap";
 import { useCart } from "../Cart";
 import { Link } from "react-router-dom";
 import { useUser } from "../UserContext";
+import {MenuIcon, BorealIcon, SearchIcon, ShoppingIcon, UserIcon} from "../../Assets/Images";
 
 
 function Navigation() {
@@ -12,7 +13,42 @@ function Navigation() {
   const items = useCart();
 
   return (
-    <Navbar bg="light" expand="sm">
+    <Navbar bg="white">
+      <img 
+        src={MenuIcon}
+        className="menu "
+        alt="Menu Icon"
+        />
+      <img
+        src={BorealIcon}
+        className="d-inline-block align-top"
+        alt="Boreal Logo"
+      />
+       <img
+        src={SearchIcon}
+        className="d-inline-block align-top"
+        alt="Search Icon"
+      />
+      <img
+        src={UserIcon} 
+        className="d-inline-block align-top"
+        alt="User Icon"
+      />
+     
+      <img
+        src={ShoppingIcon}
+        className="d-inlie-block align-top"
+        alt="ShoppingIcon"
+      />
+      
+    </Navbar>
+  );
+}
+
+export default Navigation;
+
+/**
+ * <Navbar bg="white" expand="sm">
       <Navbar.Brand as={Link} to="/">Boreal.ca</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -32,7 +68,4 @@ function Navigation() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  );
-}
-
-export default Navigation;
+ */
