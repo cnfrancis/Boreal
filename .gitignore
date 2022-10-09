@@ -35,3 +35,10 @@ override.tf.json
 # End of https://www.gitignore.io/api/python,terraform
 .vscode
 
+fcn_p_key
+fcn_key.ppk
+connect_aws.txt
+deploy/.terraform.lock.hcl
+deploy/terraform-ec2-open-ssh.pem
+deploy/terraform-ec2.pem
+deploy/scripts/setup.sh
